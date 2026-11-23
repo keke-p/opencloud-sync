@@ -84,3 +84,7 @@ Play ストアでの公開は想定しておらず、APK を直接インスト�
 | `data` | Room (同期フォルダ、アップロード記録) |
 | `sync` | 同期処理本体、WorkManager のワーカーとスケジュール、通知 |
 | `ui` | Jetpack Compose の画面 |
+
+## ライセンス
+
+[NYSL Version 0.9982](LICENSE) (煮るなり焼くなり好きにしろライセンス)
