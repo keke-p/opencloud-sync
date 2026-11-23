@@ -1,0 +1,11 @@
+.gradle/
+build/
+local.properties
+.idea/
+*.iml
+.kotlin/
+captures/
+# リリース署名の鍵とパスワード
+*.jks
+*.keystore
+keystore.properties

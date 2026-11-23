@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  OpenCloud のロゴ (公式 Android アプリの icon_foreground より) に、同期を示す回転矢印のバッジを重ねたもの。
+  回転矢印は Material Icons "sync" (Apache License 2.0)。
+  アダプティブアイコンの切り抜き (中心から半径 33dp) に収まるよう配置している。
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- OpenCloud ロゴ: 512 単位の原図 (中心 256,256) を 0.126 倍して (50,50) に置く -->
+    <group
+        android:scaleX="0.126"
+        android:scaleY="0.126"
+        android:translateX="17.74"
+        android:translateY="17.74">
+        <path
+            android:fillColor="#E2BAFF"
+            android:pathData="M255.98,342.75l15.91,-9.18l0,-66.45l57.19,-33.02l0,-18.32l-15.9,-9.18l-57.58,33.24l-56.77,-32.78l-15.9,9.18l0,18.32l57.19,33.02l0,66.01l15.86,9.16z" />
+        <path
+            android:fillColor="#E2BAFF"
+            android:pathData="M401.95,150.82l-145.95,-84.26l0,0l0,0l-145.95,84.26l0,36.68l145.95,-84.26l145.95,84.26l0,-36.68z" />
+        <path
+            android:fillColor="#E2BAFF"
+            android:pathData="M401.95,324.5l-145.95,84.26l-145.94,-84.26l0,36.67l145.94,84.26l0,0l0,0l145.95,-84.26l0,-36.67z" />
+    </group>
+    <!-- バッジ: 背景色の縁取りでロゴと分離する -->
+    <path
+        android:fillColor="#20434F"
+        android:pathData="M67,52a15,15 0,1 1,0 30a15,15 0,1 1,0 -30z" />
+    <path
+        android:fillColor="#E2BAFF"
+        android:pathData="M67,54.5a12.5,12.5 0,1 1,0 25a12.5,12.5 0,1 1,0 -25z" />
+    <!-- 回転矢印: 24 単位の原図 (中心 12,12) を 0.8 倍して (67,67) に置く -->
+    <group
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:translateX="57.4"
+        android:translateY="57.4">
+        <path
+            android:fillColor="#20434F"
+            android:pathData="M12,4V1L8,5l4,4V6c3.31,0 6,2.69 6,6 0,1.01 -0.25,1.97 -0.7,2.8l1.46,1.46C19.54,15.03 20,13.57 20,12c0,-4.42 -3.58,-8 -8,-8zM12,18c-3.31,0 -6,-2.69 -6,-6 0,-1.01 0.25,-1.97 0.7,-2.8L5.24,7.74C4.46,8.97 4,10.43 4,12c0,4.42 3.58,8 8,8v3l4,-4 -4,-4v3z" />
+    </group>
+</vector>
